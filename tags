@@ -1,0 +1,139 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CountDown	ch04.py	/^    class CountDown:$/;"	c	function:test_0405
+Info	ch02.py	/^    class Info:$/;"	c	function:test_0215
+Node	ch04.py	/^    class Node:$/;"	c	function:test_0402
+Node	ch04.py	/^    class Node:$/;"	c	function:test_0404
+PriorityQueue	ch01.py	/^    class PriorityQueue:$/;"	c	function:doctest_0105
+READ_BIN_FILE	ch05.py	/^READ_BIN_FILE = 'ch05_data\/sample.bin'$/;"	v
+READ_TXT_FILE	ch05.py	/^READ_TXT_FILE = 'ch05_data\/sample.txt'$/;"	v
+ResultHandler	ch07.py	/^    class ResultHandler:$/;"	c	function:test_0710
+User	ch01.py	/^    class User:$/;"	c	function:test_0114
+WRITE_BIN_FILE	ch05.py	/^WRITE_BIN_FILE = 'ch05_data\/sample_write.bin'$/;"	v
+WRITE_TXT_FILE	ch05.py	/^WRITE_TXT_FILE = 'ch05_data\/sample_write.txt'$/;"	v
+__init__	ch01.py	/^        def __init__(self):$/;"	m	class:doctest_0105.PriorityQueue
+__init__	ch01.py	/^        def __init__(self, id):$/;"	m	class:test_0114.User
+__init__	ch02.py	/^        def __init__(self, name, n):$/;"	m	class:test_0215.Info
+__init__	ch04.py	/^        def __init__(self):$/;"	m	class:test_0402.Node
+__init__	ch04.py	/^        def __init__(self, lines, histlen=3):$/;"	m	class:test_0406.line_history
+__init__	ch04.py	/^        def __init__(self, start):$/;"	m	class:test_0405.CountDown
+__init__	ch04.py	/^        def __init__(self, value):$/;"	m	class:test_0404.Node
+__init__	ch07.py	/^        def __init__(self):$/;"	m	class:test_0710.ResultHandler
+__iter__	ch04.py	/^        def __iter__(self):  # generator로 정의한 __iter__()$/;"	m	class:test_0406.line_history	file:
+__iter__	ch04.py	/^        def __iter__(self):  # this makes Node iterable$/;"	m	class:test_0402.Node	file:
+__iter__	ch04.py	/^        def __iter__(self):$/;"	m	class:test_0404.Node	file:
+__iter__	ch04.py	/^        def __iter__(self):$/;"	m	class:test_0405.CountDown	file:
+__missing__	ch02.py	/^        def __missing__(self, key):$/;"	m	class:test_0215.safesub	file:
+__repr__	ch01.py	/^        def __repr__(self):$/;"	m	class:test_0114.User	file:
+__repr__	ch04.py	/^        def __repr__(self):$/;"	m	class:test_0404.Node	file:
+__reversed__	ch04.py	/^        def __reversed__(self):$/;"	m	class:test_0405.CountDown	file:
+add	ch07.py	/^    def add(x, y):  # sample logic function$/;"	f	function:test_0710
+add	ch07.py	/^    def add(x: int, y: int) -> int:$/;"	f	function:test_0703
+add_child	ch04.py	/^        def add_child(self, item):$/;"	m	class:test_0402.Node
+add_child	ch04.py	/^        def add_child(self, node):$/;"	m	class:test_0404.Node
+apply_async	ch07.py	/^    def apply_async(func, args, *, callback):  # callback : required kwarg$/;"	f	function:test_0710
+call_funcs	common_util.py	/^def call_funcs(vars, predicate):$/;"	f
+change_date	ch02.py	/^    def change_date(m):$/;"	f	function:test_0205
+clear	ch04.py	/^        def clear(self):$/;"	m	class:test_0406.line_history
+closure	ch07.py	/^        def closure():$/;"	f	function:test_0712.make_closure
+coroutine	ch07.py	/^    def coroutine():$/;"	f	function:test_0710
+count	ch04.py	/^    def count(n):  # simple generator$/;"	f	function:test_0407
+depth_first	ch04.py	/^        def depth_first(self):$/;"	m	class:test_0404.Node
+do_bar	ch01.py	/^    def do_bar(s):$/;"	f	function:doctest_0102
+do_foo	ch01.py	/^    def do_foo(x, y):$/;"	f	function:doctest_0102
+doctest_0101	ch01.py	/^def doctest_0101():$/;"	f
+doctest_0102	ch01.py	/^def doctest_0102():$/;"	f
+doctest_0103	ch01.py	/^def doctest_0103():$/;"	f
+doctest_0104	ch01.py	/^def doctest_0104():$/;"	f
+doctest_0105	ch01.py	/^def doctest_0105():$/;"	f
+doctest_0107	ch01.py	/^def doctest_0107():$/;"	f
+doctest_0108	ch01.py	/^def doctest_0108():$/;"	f
+doctest_0109	ch01.py	/^def doctest_0109():$/;"	f
+doctest_0110	ch01.py	/^def doctest_0110():$/;"	f
+doctest_0111	ch01.py	/^def doctest_0111():$/;"	f
+doctest_0112	ch01.py	/^def doctest_0112():$/;"	f
+doctest_0503	ch05.py	/^def doctest_0503():$/;"	f
+doctest_0504	ch05.py	/^def doctest_0504():$/;"	f
+doctest_1_3	test_ch01.py	/^def doctest_1_3():$/;"	f
+flatten	ch04.py	/^    def flatten(items, ignore_types=(str, bytes)):$/;"	f	function:test_0414
+frange	ch04.py	/^    def frange(start, stop, inc):$/;"	f	function:test_0403
+generate_tokens	ch02.py	/^    def generate_tokens(p, t):$/;"	f	function:test_0218
+get_state	ch07.py	/^        def get_state():$/;"	f	function:test_0712.make_closure
+handler	ch07.py	/^        def handler(result):$/;"	f	function:test_0710.state_closure
+handler	ch07.py	/^        def handler(self, result):  # method for callback$/;"	m	class:test_0710.ResultHandler
+is_int	ch01.py	/^    def is_int(val):$/;"	f	function:test_0116
+it	ch04.py	/^        it = iter(line_history(f))  # for 아닌 next() 접근시 iter() 사용 필요$/;"	v	class:test_0406.line_history
+line_history	ch04.py	/^    class line_history:$/;"	c	function:test_0406
+lines	ch04.py	/^        lines = line_history(f)  # 마치 generator 함수처럼 사용$/;"	v	class:test_0406.line_history
+make_closure	ch07.py	/^    def make_closure():$/;"	f	function:test_0712
+matchcase	ch02.py	/^    def matchcase(word):  # 찾은 단어와 동일한 case 적용하기$/;"	f	function:test_0206
+pop	ch01.py	/^        def pop(self):$/;"	m	class:doctest_0105.PriorityQueue
+print_callback	ch07.py	/^    def print_callback(result):  # simple callback$/;"	f	function:test_0710
+push	ch01.py	/^        def push(self, item, priority):$/;"	m	class:doctest_0105.PriorityQueue
+remove_dict_dup	ch01.py	/^def remove_dict_dup(items, key=None):$/;"	f
+remove_dup	ch01.py	/^def remove_dup(items):$/;"	f
+replace	ch02.py	/^        def replace(m):$/;"	f	function:test_0206.matchcase
+safesub	ch02.py	/^    class safesub(dict):$/;"	c	function:test_0215
+sample	ch07.py	/^    def sample(*, kw=False):$/;"	f	function:test_0702
+sample	ch07.py	/^    def sample(a, *, kw=False):$/;"	f	function:test_0702
+sample	ch07.py	/^    def sample(first, **rest):$/;"	f	function:test_0701
+sample	ch07.py	/^    def sample(first, *rest):$/;"	f	function:test_0701
+sample	ch07.py	/^    def sample(kw=False):$/;"	f	function:test_0702
+set_state	ch07.py	/^        def set_state(v):$/;"	f	function:test_0712.make_closure
+state_closure	ch07.py	/^    def state_closure():$/;"	f	function:test_0710
+test_0113	ch01.py	/^def test_0113():$/;"	f
+test_0114	ch01.py	/^def test_0114():$/;"	f
+test_0115	ch01.py	/^def test_0115():$/;"	f
+test_0116	ch01.py	/^def test_0116():$/;"	f
+test_0117	ch01.py	/^def test_0117():$/;"	f
+test_0118	ch01.py	/^def test_0118():$/;"	f
+test_0119	ch01.py	/^def test_0119():$/;"	f
+test_0201	ch02.py	/^def test_0201():$/;"	f
+test_0202	ch02.py	/^def test_0202():$/;"	f
+test_0203	ch02.py	/^def test_0203():$/;"	f
+test_0204	ch02.py	/^def test_0204():$/;"	f
+test_0205	ch02.py	/^def test_0205():$/;"	f
+test_0206	ch02.py	/^def test_0206():$/;"	f
+test_0207	ch02.py	/^def test_0207():$/;"	f
+test_0208	ch02.py	/^def test_0208():$/;"	f
+test_0209	ch02.py	/^def test_0209():$/;"	f
+test_0210	ch02.py	/^def test_0210():$/;"	f
+test_0211	ch02.py	/^def test_0211():$/;"	f
+test_0213	ch02.py	/^def test_0213():$/;"	f
+test_0214	ch02.py	/^def test_0214():$/;"	f
+test_0215	ch02.py	/^def test_0215():$/;"	f
+test_0216	ch02.py	/^def test_0216():$/;"	f
+test_0217	ch02.py	/^def test_0217():$/;"	f
+test_0218	ch02.py	/^def test_0218():$/;"	f
+test_0220	ch02.py	/^def test_0220():$/;"	f
+test_022001	ch02.py	/^def test_022001():$/;"	f
+test_0401	ch04.py	/^def test_0401():$/;"	f
+test_0402	ch04.py	/^def test_0402():$/;"	f
+test_0403	ch04.py	/^def test_0403():$/;"	f
+test_0404	ch04.py	/^def test_0404():$/;"	f
+test_0405	ch04.py	/^def test_0405():$/;"	f
+test_0406	ch04.py	/^def test_0406():$/;"	f
+test_0407	ch04.py	/^def test_0407():$/;"	f
+test_0408	ch04.py	/^def test_0408():$/;"	f
+test_0409	ch04.py	/^def test_0409():$/;"	f
+test_0410	ch04.py	/^def test_0410():$/;"	f
+test_0411	ch04.py	/^def test_0411():$/;"	f
+test_0412	ch04.py	/^def test_0412():$/;"	f
+test_0412_my	ch04.py	/^def test_0412_my():$/;"	f
+test_0414	ch04.py	/^def test_0414():$/;"	f
+test_0415	ch04.py	/^def test_0415():$/;"	f
+test_0416	ch04.py	/^def test_0416():$/;"	f
+test_0501	ch05.py	/^def test_0501():$/;"	f
+test_0504	ch05.py	/^def test_0504():$/;"	f
+test_0509	ch05.py	/^def test_0509():$/;"	f
+test_0701	ch07.py	/^def test_0701():$/;"	f
+test_0702	ch07.py	/^def test_0702():$/;"	f
+test_0703	ch07.py	/^def test_0703():$/;"	f
+test_0707	ch07.py	/^def test_0707():$/;"	f
+test_0710	ch07.py	/^def test_0710():$/;"	f
+test_0712	ch07.py	/^def test_0712():$/;"	f
+test_sample	common_util.py	/^def test_sample():$/;"	f
